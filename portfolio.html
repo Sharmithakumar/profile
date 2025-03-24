@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Sharmitha</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="port.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-dark text-white">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <div class="container">
+            <a class="navbar-brand text-success fw-bold" href="#">Sharmitha Kumar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon">Sharmitha</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#Home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#About Me">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="container mt-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <title>Custom Badge</title>
+                <style>
+                    .custom-badge {
+                        display: inline-block;
+                        background-color: aqua;
+                        color: #212529;
+                        font-weight: bold;
+                        padding: 8px 16px; 
+                        border-radius: 10px;
+                    }
+                </style>
+            <h3><span class="custom-badge">Hello I'm</span></h3>
+                <h1 class="display-4 mt-3"><b>Sharmitha</b></h1><br>
+                <h3 class="fw-light"><b>Web Developer</b></h3><br>3
+                <div class="mt-3">
+                    <p><i class="fas fa-envelope text-success"></i>&nbsp;&nbsp;&nbsp;&nbsp; sharmikumar37@gmail.com</p>
+                    <p><i class="fas fa-phone text-success"></i> &nbsp;&nbsp;&nbsp;&nbsp;8056022613</p>
+                    <p><i class="fas fa-map-marker-alt text-success"></i>&nbsp;&nbsp;&nbsp;&nbsp; 215,Srinivasa Nagar,Sakkotai,Kumbakonam,India.</p><br><br>
+                </div>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fab fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <a href="#" class="icon"><i class="fab fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#" class="icon"><i class="fab fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#" class="icon"><i class="fab fa-linkedin"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                </div>                
+            </div>
+            <div class="col-md-6 text-center">
+                <div class="glow"></div>
+                <div class="profile-image">
+                    <img src="me.jpg" class="rounded-circle img-fluid border border-light p-2">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="About" class="second">
+        <style>
+            body {
+                background-color: #0d1b2a;
+                color: white;
+                font-family: Arial, sans-serif;
+            }
+            .container {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                min-height: 100vh;
+                padding: 5%;
+            }
+            .profile-img {
+                width: 350px;
+                height: 350px;
+                border-radius: 50%;
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .profile-img img {
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                object-fit: cover;
+                border: 5px solid white;
+            }
+            .glow {
+                position: absolute;
+                width: 380px;
+                height: 380px;
+                border-radius: 50%;
+                background: radial-gradient(circle, rgba(0,255,220,0.7) 10%, rgba(100,0,255,0.2) 50%);
+                filter: blur(15px);
+                z-index: -1;
+                animation: glowEffect 2s infinite alternate;
+            }
+            @keyframes glowEffect {
+                0% { transform: scale(1); opacity: 0.8; }
+                100% { transform: scale(1.1); opacity: 1; }
+            }
+            .about-content {
+                max-width: 600px;
+            }
+            .about-content h2 {
+                font-size: 2rem;
+                font-weight: bold;
+            }
+            .about-content p {
+                font-size: 1rem;
+                line-height: 1.6;
+            }
+            .btn-glow {
+                background: linear-gradient(90deg, #00d084, #00ffaa);
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 25px;
+                font-size: 1rem;
+                font-weight: bold;
+                transition: 0.3s;
+                box-shadow: 0 0 10px rgba(0, 255, 220, 0.8);
+            }
+            .btn-glow:hover {
+                transform: scale(1.1);
+                box-shadow: 0 0 15px rgba(0, 255, 220, 1);
+            }
+            .navbar {
+                background: #081b29;
+                padding: 50px;
+            }
+            .navbar-brand {
+                color: white;
+                font-weight: bold;
+            }
+            .navbar-nav a {
+                color: white;
+                margin-right: 15px;
+            }
+            .navbar-nav a:hover {
+                color: #00d084;
+            }
+        </style>
+    </head>
+    <body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Portfolio.Sharmitha</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="profile-img">
+            <div class="glow"></div>
+            <img src="me.jpg" alt="Profile">
+        </div>
+        <div class="about-content">
+            <h2>Web Developer!</h2>
+            <p>
+                As a web developer with two years of experience , I have developed a strong foundation in building scalable and secure web applications. My expertise includes front-end development,back-end development and full-stack development. I am passionate about staying up-to-date with the latest web development trends and technologies.
+            </p>
+            <p>
+                Throughout my career, I have developed a deep understanding of html,css and Bootstrap. By putting myself in the shoes of the end-users, I strive to create intuitive and seamless browsing experiences. I believe that a well-designed website should not only look visually appealing but also provide a smooth and enjoyable interaction for visitors.
+            </p><br><br>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</section>
+<section id="Skills" class="second">
+    <style>
+        body {
+            background-color: #0b1727;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .skills-section {
+            text-align: center;
+            padding: 60px 0;
+        }
+        .skills-section h2 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .skills-section h2 span {
+            color:aqua ;
+        }
+        .skills-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .technical-skills, .professional-skills {
+            flex: 1;
+            min-width: 300px;
+            padding: 50px;
+        }
+        .technical-skills h3, .professional-skills h3 {
+            font-size: 1.5rem;
+            text-decoration: underline;
+            margin-bottom: 50px;
+        }
+        .skill {
+            margin-bottom: 15px;
+        }
+        .progress {
+            height: 8px;
+            background: #2a2a2a;
+            border-radius: 5px;
+        }
+        .progress-bar {
+            background: aqua;
+        }
+        .progress-label {
+            display: flex;
+            justify-content: space-between;
+            font-size: 1rem;
+            margin-bottom: 5px;
+        }
+        .circle-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .circle-progress {
+            width: 120px;
+            height: 120px;
+            position: relative;
+        }
+        .circle-progress canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .circle-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+    </style>
+    </script>
+<div class="container">
+    <div class="skills-section">
+        <h2>My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="technical-skills">
+                <h3>Technical Skills</h3>
+
+                <div class="skill">
+                    <div class="progress-label">
+                        <span><img src="https://cdn-icons-png.flaticon.com/128/732/732212.png" width="20"> HTML</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="progress-label">
+                        <span><img src="https://cdn-icons-png.flaticon.com/128/732/732190.png" width="20"> CSS</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 60%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="progress-label">
+                        <span><img src="https://cdn-icons-png.flaticon.com/128/5968/5968292.png" width="20"> JavaScript</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="progress-label">
+                        <span><img src="https://cdn-icons-png.flaticon.com/128/919/919852.png" width="20"> JavaScript</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 50%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="professional-skills">
+                <h3>Professional Skills</h3>
+                <div class="circle-container">
+                    <div class="circle-progress" id="creativity">
+                        <div class="circle-text">80%</div>
+                    </div>
+                    <div class="circle-progress" id="communication">
+                        <div class="circle-text">65%</div>
+                    </div>
+                    <div class="circle-progress" id="problem-solving">
+                        <div class="circle-text">75%</div>
+                    </div>
+                    <div class="circle-progress" id="teamwork">
+                        <div class="circle-text">85%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</script>
+</section>
+<section id="contact" class="third">
+    <style>
+        body {
+            background-color: #0b1727;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .contact-section {
+            padding: 60px 0;
+            text-align: center;
+        }
+        .contact-section h2 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .contact-section h2 span {
+            color: #00d4ff;
+        }
+        .contact-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
